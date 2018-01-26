@@ -1,0 +1,57 @@
+{
+    "description": "项目配置文件。",
+    "setting": {
+        "urlCheck": true,
+        "es6": true,
+        "postcss": true,
+        "minified": true,
+        "newFeature": true
+    },
+    "compileType": "miniprogram",
+    "libVersion": "1.6.4",
+    "appid": "touristappid",
+    "projectname": "Read%26Moives",
+    "condition": {
+        "search": {
+            "current": -1,
+            "list": []
+        },
+        "conversation": {
+            "current": -1,
+            "list": []
+        },
+        "miniprogram": {
+            "current": -1,
+            "list": []
+        }
+    },
+    "pages": [
+        "pages/welcome/welcome",
+        "pages/posts/post",
+        "pages/posts/post-detail/post-detail",
+        "pages/movies/movies",
+        "pages/movies/more-movie/more-movie",
+        "pages/movies/movie-detail/movie-detail"
+    ],
+    "window": {
+        "navigationBarBackgroundColor": "#4a3333"
+    },
+    "tabBar": {
+        "list": [
+            {
+                "pagePath": "pages/posts/post",
+                "text": "文章",
+                "iconPath": "images/tab/read1.png",
+                "selectedIconPath": "images/tab/read.png"
+            },
+            {
+                "pagePath": "pages/movies/movies",
+                "text": "电影",
+                "iconPath": "images/tab/movie1.png",
+                "selectedIconPath": "images/tab/movie.png"
+            }
+        ],
+        "borderStyle": "white",
+        "selectedColor": "#4a3333"
+    }
+}

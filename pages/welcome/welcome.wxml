@@ -1,0 +1,8 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container">
+  <image class="user-image" src='/images/avatar/pic.png'></image>
+  <text class="user-name">Hi, Provence</text>
+  <view class="moto-container" bindtap="onTap">
+    <text class="moto">开启小程序之旅</text>
+  </view>
+</view>

@@ -1,0 +1,36 @@
+/* pages/welcome/welcome.wxss */
+.container {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+}
+.user-image {
+  height: 200rpx;
+  width: 200rpx;
+  margin-top:150rpx;
+}
+.user-name {
+  margin-top: 100rpx;
+  font-family: MicroSoft YaHei;
+  font-size:50rpx;
+  font-weight: bold;
+}
+.moto-container {
+  border: 1px solid #259f6c;
+  margin-top: 250rpx;
+  border-radius: 5px;
+  height: 80rpx;
+  width: 220rpx;
+  text-align: center;
+  background-color: #259f6c;
+}
+.moto {
+  font-size:30rpx;
+  font-family: MicroSoft YaHei;
+  line-height: 80rpx;
+  font-weight: bold;
+}
+page {
+  height:100%;
+  background-color: #98d083;
+}
